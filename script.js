@@ -5,5 +5,5 @@ const siteStyle=document.createElement('style');
 siteStyle.textContent='.brand{font-size:28px!important}.section-title>span,.process-step>b,.benefit-grid>div>b{display:none!important}@media(max-width:620px){.brand{font-size:24px!important}}';
 document.head.appendChild(siteStyle);
 
-const valueIcons=['✦','⏳','☀','✓','⟂'];
+const valueIcons=['♡','⏳','☀','✓','◯'];
 document.querySelectorAll('.value-grid article>div').forEach((el,i)=>{if(valueIcons[i]) el.textContent=valueIcons[i];});
